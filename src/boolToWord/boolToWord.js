@@ -1,5 +1,10 @@
-function boolToWord(bool) {}
-
+function boolToWord(bool) {
+    if (bool == true) {
+        return 'Yes';
+    } else if (bool == false) {
+        return 'No';
+    }
+}
 module.exports = {
     boolToWord,
 };
