@@ -1,3 +1,4 @@
+// Enunciado: https://www.codewars.com/kata/53369039d7ab3ac506000467/javascript
 function boolToWord(bool) {
     if (bool == true) {
         return 'Yes';
@@ -5,6 +6,7 @@ function boolToWord(bool) {
         return 'No';
     }
 }
+
 module.exports = {
     boolToWord,
 };
